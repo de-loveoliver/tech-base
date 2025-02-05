@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tech Tree - Resource Collection</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Tech Tree</h1>
+    <p>Your gateway to technical resources and code snippets.</p>
+  </header>
+
+  <main>
+    <input type="text" id="searchInput" placeholder="Search resources...">
+    <div id="resourcesContainer"></div>
+  </main>
+
+  <footer>
+    <p>© 2023 Tech Tree. Happy Learning!</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
