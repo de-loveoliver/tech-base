@@ -1,26 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Tech Tree - Resource Collection</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-
-  <header>
-    <h1>Tech Tree</h1>
-    <p>Your gateway to technical resources and code snippets.</p>
-  </header>
-
-  <main>
-    <input type="text" id="searchInput" placeholder="Search resources...">
-    <div id="resourcesContainer"></div>
-  </main>
-
-  <footer>
-    <p>© 2023 Tech Tree. Happy Learning!</p>
-  </footer>
-
-  <script src="app.js"></script>
-</body>
-</html>
+            - name: DesigniteJava Action
+  # You may pin to the exact commit or the version.
+  # uses: DesigniteTools/DJAction@b52255133c5742a104cfad177775edb22bd4c92c
+  uses: DesigniteTools/DJAction@v2.0
+  with:
+    # Personal access token
+    PAT: # optional, default is No PAT provided
+    # Designite license key - optional
+    D_KEY: # optional, default is No key
+          
